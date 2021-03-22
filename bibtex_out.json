@@ -1,0 +1,149 @@
+{
+"pages": [
+{
+"title": "Evaluating Protein Transfer Learning with TAPE",
+"lines": [
+"Evaluating Protein Transfer Learning with TAPE",
+"@inproceedings{NEURIPS2019_37f65c06",
+"author\t= [Rao, Roshan] and [Bhattacharya, Nicholas] and [Thomas, Neil] and [Duan, Yan] and [Chen, Peter] and [Canny, John] and [Abbeel, Pieter] and [Song, Yun]",
+"booktitle\t= Advances in Neural Information Processing Systems",
+"editor\t= Wallach, H and Larochelle, H and Beygelzimer, A and d$\\backslash$textquotesingle Alch\\'e-Buc, F and Fox, E and Garnett, R",
+"publisher\t= Curran Associates, Inc.",
+"title\t= Evaluating Protein Transfer Learning with TAPE",
+"url\t= https:\/\/proceedings.neurips.cc\/paper\/2019\/file\/37f65c068b7723cd7809ee2d31d7861c-Paper.pdf",
+"volume\t= 32",
+"year\t= [2019]",
+"}",
+"[* Tag:]",
+"#read2021 #read202103"
+]
+},
+{
+"title": "Learning distributed representations of RNA sequences and its application for predicting RNA-protein binding sites with a convolutional neural network",
+"lines": [
+"Learning distributed representations of RNA sequences and its application for predicting RNA-protein binding sites with a convolutional neural network",
+"@article{Pan2018",
+"abstract\t= RNA-binding proteins (RBPs) play a crucial role in gene regulation. Unfortunately, experimental approaches for detecting the RNA-protein binding sites on RNAs are still high-cost and time-consuming. Computer algorithms are therefore wanted for automatic detection of the binding sites from sequences. This usually requires efficient representations of sequences of various length into vectors of the same size. For example, the k-mers representation as one-hot encoding is a simple widely used approach in the RBP binding sites prediction field. However, the k-mer feature representation will lead to extremely high-dimensional and sparse problems. Furthermore, the k-mer feature representation ignores the positional information within the sequences, which could negatively impact its predictive power. In this study, we present a deep learning based approach iDeepV. It first applies an unsupervised shallow two-layer neural network to automatically learn the distributed representation of k-mers by considering their neighbor context. Compared to the conventional k-mers approach, the new distributed representation captures the latent relationship of k-mers, in which the similarity between k-mers is taken into consideration. Then, the learned distributed representations of the input sequences are used as inputs for a convolutional neural network (CNN) to discriminate the RBP bound sites from the unbound sites. We comprehensively evaluate the iDeepV on two large-scale RBP binding sites datasets. The results show that iDeepV can yield comparable performance than the state-of-the-art methods. The iDeepV algorithm is available at https:\/\/github.com\/xypan1232\/iDeepV.",
+"author\t= [Pan, Xiaoyong] and [Shen, Hong Bin]",
+"doi\t= 10.1016\/j.neucom.2018.04.036",
+"file\t= :Users\/yamadakeisuke\/Documents\/Articles\/Journal - misc\/Learning distributed representations of RNA sequences and its application for predicting RNA-protein binding sites with a convolutional neural network.pdf:pdf",
+"issn\t= 18728286",
+"journal\t= [Neurocomputing]",
+"keywords\t= Convolutional neural network,Distributed representation,RNA-binding protein,k-mers",
+"pages\t= 51--58",
+"publisher\t= Elsevier B.V.",
+"title\t= Learning distributed representations of RNA sequences and its application for predicting RNA-protein binding sites with a convolutional neural network",
+"url\t= https:\/\/doi.org\/10.1016\/j.neucom.2018.04.036",
+"volume\t= 305",
+"year\t= [2018]",
+"}",
+"[* Tag:]",
+"#read2021 #read202103"
+]
+},
+{
+"title": "Assessing deep learning algorithms in cis-regulatory motif finding based on genomic sequencing data",
+"lines": [
+"Assessing deep learning algorithms in cis-regulatory motif finding based on genomic sequencing data",
+"@article{Wang2020",
+"author\t= [Wang, Yan] and [Zhang, Shuangquan] and [Ma, Anjun] and [Wang, Cankun] and [Wu, Zhenyu] and [Xu, Dong] and [Ma, Qin]",
+"doi\t= 10.1101\/2020.11.30.403261",
+"file\t= :Users\/yamadakeisuke\/Documents\/Articles\/bioarxiv\/2020\/Assessing deep learning algorithms in cis-regulatory motif finding based on genomic sequencing data.pdf:pdf",
+"journal\t= [bioRxiv]",
+"title\t= Assessing deep learning algorithms in cis-regulatory motif finding based on genomic sequencing data",
+"year\t= [2020]",
+"}",
+"[* Tag:]",
+"#read2021 #read202103"
+]
+},
+{
+"title": "RBP2GO: a comprehensive pan-species database on RNA-binding proteins, their interactions and functions",
+"lines": [
+"RBP2GO: a comprehensive pan-species database on RNA-binding proteins, their interactions and functions",
+"@article{Caudron-herger2020",
+"author\t= [Caudron-herger, Maiwen] and [Jansen, Ralf E] and [Wassmer, Elsa] and [Diederichs, Sven]",
+"doi\t= 10.1093\/nar\/gkaa1040",
+"file\t= :Users\/yamadakeisuke\/Documents\/Articles\/Journal - Nucleic Acid Research\/2020\/202011\/RBP2GO- a comprehensive pan-species database on RNA-binding proteins, their interactions and functions.pdf:pdf",
+"issn\t= 0305-1048",
+"journal\t= [Nucleic Acids Research]",
+"pages\t= 1--12",
+"publisher\t= Oxford University Press",
+"title\t= RBP2GO: a comprehensive pan-species database on RNA-binding proteins, their interactions and functions",
+"url\t= http:\\\/\\\/fdslive.oup.com\\\/www.oup.com\\\/pdf\\\/production\\\\_in\\\\_progress.pdf",
+"year\t= [2020]",
+"}",
+"[* Tag:]",
+"#read2021 #read202103"
+]
+},
+{
+"title": "Tunable Gene Expression System Independent of Downstream Coding Sequence",
+"lines": [
+"Tunable Gene Expression System Independent of Downstream Coding Sequence",
+"@article{Yoo2020",
+"abstract\t= Fine control of the expression levels of proteins constitutes a major challenge in synthetic biology and metabolic engineering. However, the dependence of translation initiation on the downstream coding sequence (CDS) obscures accurate prediction of the protein expression levels from mRNA sequences. Here, we present a tunable gene-expression system comprising 24 expression cassettes that produce predefined relative expression levels of proteins ranging from 0.001 to 1 without being influenced by the downstream CDS. To validate the practical utility of the tunable expression system, it was applied to a synthetic circuit displaying three states of fluorescence depending on the difference in protein expression levels. To demonstrate the suitability of application to metabolic engineering, this system was used to diversify the levels of key metabolic enzymes. As a result, expression-optimized strains were capable of producing 2.25 g\/L of cadaverine, 2.59 g\/L of L-proline, and 95.7 mg\/L of 1-propanol. Collectively, the tunable expression system could be utilized to optimize genetic circuits for desired operation and to optimize metabolic fluxes through biosynthetic pathways for enhancing production yields of bioproducts. This tunable system will be useful for studying basic and applied biological sciences in addition to applications in synthetic biology and metabolic engineering.",
+"author\t= [Yoo, Seung Min] and [Jung, Seung Woon] and [Yeom, Jinho] and [Lee, Sang Yup] and [Na, Dokyun]",
+"doi\t= 10.1021\/acssynbio.0c00029",
+"file\t= :Users\/yamadakeisuke\/Documents\/Articles\/Journal - ACS Synbio\/2020\/202011\/Tunable Gene Expression System Independent of Downstream Coding Sequence.pdf:pdf",
+"issn\t= 21615063",
+"journal\t= [ACS Synthetic Biology]",
+"keywords\t= metabolic engineering,protein expression,synthetic biology",
+"pmid\t= 33124809",
+"title\t= Tunable Gene Expression System Independent of Downstream Coding Sequence",
+"year\t= [2020]",
+"}",
+"[* Tag:]",
+"#read2021 #read202103"
+]
+},
+{
+"title": "CAPRI enables comparison of evolutionarily conserved RNA interacting regions",
+"lines": [
+"CAPRI enables comparison of evolutionarily conserved RNA interacting regions",
+"@article{Panhale2019",
+"abstract\t= RNA-protein complexes play essential regulatory roles at nearly all levels of gene expression. Using in vivo crosslinking and RNA capture, we report a comprehensive RNA-protein interactome in a metazoan at four levels of resolution: single amino acids, domains, proteins and multisubunit complexes. We devise CAPRI, a method to map RNA-binding domains (RBDs) by simultaneous identification of RNA interacting crosslinked peptides and peptides adjacent to such crosslinked sites. CAPRI identifies more than 3000 RNA proximal peptides in Drosophila and human proteins with more than 45\\% of them forming new interaction interfaces. The comparison of orthologous proteins enables the identification of evolutionary conserved RBDs in globular domains and intrinsically disordered regions (IDRs). By comparing the sequences of IDRs through evolution, we classify them based on the type of motif, accumulation of tandem repeats, conservation of amino acid composition and high sequence divergence.",
+"author\t= [Panhale, Amol] and [Richter, Florian M.] and [Ram\\'irez, Fidel] and [Shvedunova, Maria] and [Manke, Thomas] and [Mittler, Gerhard] and [Akhtar, Asifa]",
+"doi\t= 10.1038\/s41467-019-10585-3",
+"file\t= :Users\/yamadakeisuke\/Documents\/Articles\/Journal - Nature\/2019\/CAPRI enables comparison of evolutionarily conserved RNA interacting regions.pdf:pdf",
+"isbn\t= 4146701910",
+"issn\t= 20411723",
+"journal\t= [Nature Communications]",
+"number\t= 1",
+"pmid\t= 31213602",
+"publisher\t= Springer US",
+"title\t= CAPRI enables comparison of evolutionarily conserved RNA interacting regions",
+"url\t= http:\/\/dx.doi.org\/10.1038\/s41467-019-10585-3",
+"volume\t= 10",
+"year\t= [2019]",
+"}",
+"[* Tag:]",
+"#read2021 #read202103"
+]
+},
+{
+"title": "Split drive killer-rescue provides a novel threshold-dependent gene drive",
+"lines": [
+"Split drive killer-rescue provides a novel threshold-dependent gene drive",
+"@article{Edgington2020",
+"abstract\t= A wide range of gene drive mechanisms have been proposed that are predicted to increase in frequency within a population even when they are deleterious to individuals carrying them. This also allows associated desirable genetic material (“cargo genes”) to increase in frequency. Gene drives have garnered much attention for their potential use against a range of globally important problems including vector borne disease, crop pests and invasive species. Here we propose a novel gene drive mechanism that could be engineered using a combination of toxin-antidote and CRISPR components, each of which are already being developed for other purposes. Population genetics mathematical models are developed here to demonstrate the threshold-dependent nature of the proposed system and its robustness to imperfect homing, incomplete penetrance of toxins and transgene fitness costs, each of which are of practical significance given that real-world components inevitably have such imperfections. We show that although end-joining repair mechanisms may cause the system to break down, under certain conditions, it should persist over time scales relevant for genetic control programs. The potential of such a system to provide localised population suppression via sex ratio distortion or female-specific lethality is also explored. Additionally, we investigate the effect on introduction thresholds of adding an extra CRISPR base element, showing that this may either increase or decrease dependent on parameter context.",
+"author\t= [Edgington, Matthew P.] and [Harvey-Samuel, Tim] and [Alphey, Luke]",
+"doi\t= 10.1038\/s41598-020-77544-7",
+"file\t= :Users\/yamadakeisuke\/Documents\/Articles\/Journal - Nature\/2020\/202011\/Split drive killer-rescue provides a novel threshold-dependent gene drive.pdf:pdf",
+"isbn\t= 0123456789",
+"issn\t= 20452322",
+"journal\t= [Scientific Reports]",
+"number\t= 1",
+"pages\t= 1--13",
+"publisher\t= Nature Publishing Group UK",
+"title\t= Split drive killer-rescue provides a novel threshold-dependent gene drive",
+"url\t= https:\/\/doi.org\/10.1038\/s41598-020-77544-7",
+"volume\t= 10",
+"year\t= [2020]",
+"}",
+"[* Tag:]",
+"#read2021 #read202103"
+]
+}
+]
+}
